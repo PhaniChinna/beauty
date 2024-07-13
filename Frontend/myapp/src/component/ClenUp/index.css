@@ -1,0 +1,27 @@
+.AnisFacialContainer {
+  display: flex;
+}
+
+.FacialContainerDisplay {
+  background-color: aliceblue;
+  width: 100vw;
+}
+
+@media screen and (max-width: 767px) {
+  .AnisFacialContainer {
+    display: none;
+  }
+  .MarginFacialscltlist {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .MobileFacialContainer {
+    display: none;
+  }
+}

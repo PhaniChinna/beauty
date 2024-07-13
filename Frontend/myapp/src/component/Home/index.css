@@ -1,0 +1,169 @@
+.HomeContainerOne {
+  background-color: #56575b;
+  height: 100vh;
+  background-size: cover;
+  width: auto;
+  padding: 2px;
+  display: flex;
+}
+
+.Co {
+  color: #f4d6ce;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.ImageContainer {
+  height: 99vh;
+  border-radius: 40px;
+  display: flex;
+  justify-content: end;
+}
+
+.HeaderCradContainer {
+  width: auto;
+  margin-left: 30px;
+}
+
+.HeaderCardListOne {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.AnisEmbaded {
+  font-family: "Bruno Ace", sans-serif;
+  font-weight: 1400;
+  font-style: normal;
+  color: white;
+}
+
+.Professional {
+  font-family: "Bruno Ace", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.Beauty {
+  margin-top: -3px;
+  color: white;
+  font-family: "Bruno Ace", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Paragraph {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ParaHome {
+  color: white;
+  font-family: "Bruno Ace", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-style: normal;
+}
+
+.HomeButtonOur {
+  margin-top: 30px;
+}
+
+.OurButton {
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-family: "Bruno Ace", sans-serif;
+  background-color: #56575b;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .HomeContainerOne {
+    display: none;
+  }
+  .MobileContainer {
+    background-color: #56575b;
+    height: 100vh;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+  }
+  .MobileImageList {
+    height: 35vh;
+    width: 95%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .AnisMobileConty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .AnisMobileCont {
+    font-family: "Bruno Ace", sans-serif;
+    margin-top: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+  .AnisProfession {
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+  .AnisBeautyHubThree {
+    margin-top: -3px;
+    color: white;
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .BeautyHubContainer {
+    width: 290px;
+    margin-top: -10px;
+    padding: 2px;
+  }
+  .ParaGraphContainerLest {
+    color: white;
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-style: normal;
+  }
+  .BtnContainer {
+    margin-top: 10px;
+  }
+  .btnButton {
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-family: "Bruno Ace", sans-serif;
+    background-color: #56575b;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .MobileContainer {
+    display: none;
+  }
+}

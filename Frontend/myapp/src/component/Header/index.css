@@ -1,0 +1,102 @@
+.HeaderContainerOne {
+  background-color: #56575b;
+  position: relative;
+  width: 350px;
+  padding: 10px;
+  height: auto;
+}
+
+.headerCardContainerTwo {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HeaderAnisBeauty {
+  font-family: "Bruno Ace", sans-serif;
+  font-weight: 1400;
+  font-style: normal;
+  color: white;
+}
+
+.HeaderListCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MarginFacials {
+  font-family: "Bruno Ace", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+  cursor: pointer;
+}
+.HeaderListCardFacials {
+  margin-top: 20px;
+}
+
+.cardForLadies {
+  margin-left: 80px;
+  margin-top: -10px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  color: white;
+  font-style: normal;
+}
+
+.List {
+  text-decoration: none;
+}
+
+.LineThrought {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .HeaderContainerOne {
+    display: none;
+  }
+  .MobileContContainerOne {
+    background-color: #56575b;
+    width: auto;
+    height: 10vh;
+    padding: 5px;
+    margin: 2px;
+  }
+
+  .onlyForHeaderMobile {
+    margin-top: -16px;
+    margin-left: 50px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    color: white;
+    font-style: normal;
+  }
+  .AnisMobileContainer {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    color: white;
+    font-style: normal;
+  }
+  .MobileXCardDropDown {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+  .SectionContainer {
+    margin-left: -1px;
+    margin-top: -70px;
+  }
+  .SectionConContainer {
+    width: 150px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .MobileHeaderContainer {
+    display: none;
+  }
+}
